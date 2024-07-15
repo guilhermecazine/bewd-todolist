@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   root 'homepage#index'
 
   # Add routes below this line
-  get 'task' => 'tasks#index'
+  get 'tasks' => 'tasks#index'
   # Add routes below above line
 
   post 'tasks' => 'tasks#create'
